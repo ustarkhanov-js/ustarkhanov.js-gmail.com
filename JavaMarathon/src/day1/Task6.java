@@ -13,7 +13,7 @@ public class Task6 {
         int result;
         for (int i = 1; i < 10; i++) {
             result = i * k;
-            System.out.println(i + " x " + k + " = " + result);
+            System.out.printf("%d x %d = %d%n", i, k, result);
         }
     }
 }
